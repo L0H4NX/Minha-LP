@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>L 0 H 4 N X</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/e8763681a1.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="container">
+    <div class="row pai-cabecario">
+      <div class="col-md-8 logo">
+        <h1 class="titulo-logo">L 0 H 4 N X</h1>
+        <p class="subtitulo-logo">Front-End Junior</p>
+      </div>
+      <nav id="menu-cabecario" class="col-md-4 menu-cabecario">
+        <a class="item-menu" href="#">Home</a>
+        <a class="item-menu" href="#">Sobre Mim</a>
+        <a class="item-menu" href="#">Trabalhos</a>
+        <a class="item-menu" href="#">Fale comigo</a>
+      </nav>
+      <button id="show-menu-botao" class="btn btn-primary">Open</button>
+      <i id="btn-open-menu" class="fas fa-angles-down"></i>
+    </div>
+  </header>
+
+  <!-- Seção 1 -->
+  <section id="section1" class="container">
+    <img class="img-section1" src="/assets/image 2walpaper-notebook.png" alt="">
+    <div class="pai-section1">
+      <p class="subtitulo-section1">Tenha uma Landing Page de</p>
+      <div class="texto-principal">
+        <img class="cifrao" src="/assets/cifrao.png" alt="">
+        <p class="titulo-section1"> u s e s s o</p>
+      </div>
+      <button class="botao-obter btn btn-secondary">Obter</button>
+    </div>
+  </section>
+
+  <!-- Seção 2 -->
+  <section class="container">
+    <div class="row pai-section2">
+      <div class="col-md-7 texto-section2">
+        <h1>Quem sou</h1>
+        <p>Olá, seja bem-vindo a minha página, me chamo Lohan, melhor... Steferson Lohan :)</p>
+        <br>
+
+        <p>
+          Trabalho fazendo lindas páginas assim como essa, sou desenvolvedor Front-End Júnior, tenho 20 anos e muita
+          vontade de aprender, e ganhar dinheiro(claro :)). Estas páginas que chamamos de LANDING PAGE, tem um enorme
+          potencial de alcance de pessoas, podendo fazer com que sua visibilidade, ou da sua empresa, aumenta bastante,
+          gerando assim, lucro!
+        </p>
+        <br>
+        <p>
+          Gostou? Já pensou ter a sua própria? Tá esperando o que? Clica ai no botão abaixo!
+        </p>
+        <br>
+        <button class="botao-obter-section2 btn btn-secondary">Obter</button>
+      </div>
+      <div class="col-md-5 conteiner-minhaFoto">
+        <img class="minhaFoto" src="/assets/MinhaFotoPerfil 2.png" alt="">
+      </div>
+    </div>
+  </section>
+
+  <!-- Carrossel -->
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/assets/image 2walpaper-notebook.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="/assets/img-estrutura-LpBrenna.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+      </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Modal -->
+  <div id="container-fluid" class="container">
+    <div id="containerModal">
+      <div id="conteudo-modal">
+        <h1>T</h1>
+        <h2>E</h2>
+        <h3>S</h3>
+        <h4>T</h4>
+        <h5>E</h5>
+        <button id="close-modal">Fechar Modal</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Botões de Cores -->
+  <div class="container">
+    <button id="red" class="btn btn-danger">RED</button>
+    <button id="green" class="btn btn-success">GREEN</button>
+    <button id="blue" class="btn btn-primary">BLUE</button>
+  </div>
+
+  <!-- Scripts Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <!-- Seu Script JavaScript -->
+  <script src="javascript.js"></script>
+</body>
+
+</html>
